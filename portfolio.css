@@ -3,7 +3,9 @@
 	color: white;
 }
 
-body {
+#box {
+	height: 100vh;
+	width: 100wh;
 	background-image: 'portfolio.jpg';
 }
 
