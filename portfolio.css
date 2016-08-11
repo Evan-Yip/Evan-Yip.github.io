@@ -1,14 +1,27 @@
 * {
-	font-family: Dekko;
+	font-family: 'Dekko';
+	background-image: 'portfolio.jpg';
+	font-color: white;
 }
 h1 {
-	font-size: 150px;
-	font-family: Risque;
+	font-size: 100px;
+	font-family: 'Risque';
+	font-color: black;
 }
 h6 {
 	float: right;
-	font-size: 60px
+	font-size: 60px;
 }
-p {
-	font-size: 50px
+li a {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	height: 300px;
+	width: auto;
 }
