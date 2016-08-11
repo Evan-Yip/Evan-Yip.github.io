@@ -1,8 +1,12 @@
 * {
 	font-family: 'Dekko';
-	background-image: 'portfolio.jpg';
-	font-color: white;
+	color: white;
 }
+
+body {
+	background-image: 'portfolio.jpg';
+}
+
 h1 {
 	font-size: 100px;
 	font-family: 'Risque';
