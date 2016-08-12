@@ -72,3 +72,7 @@ function playMove(whichBox) {
 function reload() {
   window.location.reload();
 }
+
+function home() {
+  window.location.href = "../index.html";
+}
