@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <hr />
+      <div id="board">
+    <table>
+      <tr id="row1">
+        <td class="square"><button onclick="playMove(0)" id="box0"></button></td>
+        <td class="square"><button onclick="playMove(1)" id="box1"></button></td>
+        <td class="square"><button onclick="playMove(2)" id="box2"></button></td>
+      </tr>
+      <tr id="row2">
+        <td class="square"><button onclick="playMove(3)" id="box3"></button></td>
+        <td class="square"><button onclick="playMove(4)" id="box4"></button></td>
+        <td class="square"><button onclick="playMove(5)" id="box5"></button></td>
+      </tr>
+      <tr id="row3">
+        <td class="square"><button onclick="playMove(6)" id="box6"></button></td>
+        <td class="square"><button onclick="playMove(7)" id="box7"></button></td>
+        <td class="square"><button onclick="playMove(8)" id="box8"></button></td>
+      </tr>
+    </table>
+  </div>
+  <button id="reload" onclick="reload()">Play Again?</button>
+  </body>
+</html>
